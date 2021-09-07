@@ -31,7 +31,7 @@ public class Main {
 			}
 		}
 		
-		System.out.println(xy[0] + " " + xy[]);
+		System.out.println(xy[0] + " " + xy[1]);
 	}
 
 }
