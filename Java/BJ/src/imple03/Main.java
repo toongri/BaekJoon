@@ -12,11 +12,10 @@ public class Main {
 		
 		String ans = sc.next();
 		
-		int a = ans.charAt(0);
-		a-=97;
+		int a = ans.charAt(0)-97;
 		int b= Character.getNumericValue(ans.charAt(1)) - 1;
 		int arrLen = arr[1].length;
-		int pa, pb, cnt = 0, n = 8;
+		int pa, pb, cnt = 0;
 		
 		for (int i =0; i< arrLen; i++) {
 			pa = a+arr[0][i];
